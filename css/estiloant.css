@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(white, rgb(237, 100, 146));
+  height: 100%;
+  width: auto;
+  margin: 0;
+}
+
+main {
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.botones {
+  margin: 20px;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.botones button {
+  margin: 20px;
+}
+
+.contenedor {
+  background-color: white;
+  width: 40%;
+  height: auto;
+  border-radius: 50px;
+  margin: 20px auto 20px auto;
+  padding: 20px;
+text-align: center;
+}
+
+button {
+  background-color: #cc506f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 30px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+button:disabled {
+  background-color: #96707a;
+}
+
+button:hover {
+  background-color: #a53c56;
+}
+
+button:hover:disabled {
+  background-color: #96707a;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #cc506f;
+    padding: 20px;
+    resize: none;
+    margin: 10px;
+    width: 80%;
+    border-radius: 30px;
+}
+
+main p{
+    border: 1px dotted #cc506f;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    width: 80%;
+    border-radius: 30px;
+}
+
+a{
+  font-size: 11px;
+  color: #cc506f;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.FooterDiv {
+  flex: 1;
+  padding: 30px 60px 30px 60px;
+  text-align: center;
+  margin: auto;
+  width: auto;
+}

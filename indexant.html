@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/estiloant.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/3.1.0/jsencrypt.min.js"></script>
+  <title>Cifrado AES y RSA</title>
+</head>
+
+<body>
+  <main>
+    <div class="botones">
+      <button onclick="mostrarAES()">Cifrar en AES</button>
+      <button onclick="mostrarRSA()">Cifrar en RSA</button>
+    </div>
+
+    <div class="maincont">
+      <div id="AES" class="contenedor">
+        <h1>Cifrado AES</h1>
+        <label for="msjA">Mensaje:</label> <br />
+        <textarea id="msjA" rows="4" cols="50" placeholder="Ingrese su texto"></textarea>
+        <br /><br />
+        <div class="botones">
+          <button onclick="cifrarAES()">Cifrar Mensaje</button>
+          <button onclick="descifrarAES()">Descifrar Mensaje</button>
+        </div>
+        <p id="mensajeProcesadoA"></p>
+        <br /><br /><br />
+        <a href="index.html">Versión actual</a>
+      </div>
+
+      <div id="RSA" class="contenedor">
+        <h1>Cifrado RSA</h1>
+        <label for="msjR">Mensaje:</label> <br />
+        <textarea id="msjR" rows="4" cols="50" placeholder="Ingrese su texto"></textarea>
+        <div class="botones">
+          <button onclick="cifrarRSA()">Cifrar Mensaje</button>
+          <button onclick="descifrarRSA()">Descifrar Mensaje</button>
+        </div>
+        <p id="mensajeProcesadoR"></p>
+        <br /><br /><br />
+        <a href="index.html">Versión actual</a>
+      </div>
+    </div>
+
+    <script src="js/scriptant.js"></script>
+  </main>
+  <footer>
+    <div class="FooterDiv">
+      <p>Karime Guadalupe Núñez Ochoa</p>
+      <p>204682</p>
+    </div>
+
+    <div class="FooterDiv">
+      <p>Seguridad de la información</p>
+    </div>
+
+    <div class="FooterDiv">
+      <p>15 de octubre del 2023</p>
+    </div>
+  </footer>
+</body>
+
+</html>

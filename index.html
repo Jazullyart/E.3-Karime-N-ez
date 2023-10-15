@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/estilo.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/3.1.0/jsencrypt.min.js"></script>
+  <title>Cifrado AES y RSA</title>
+</head>
+
+<body>
+  <main>
+
+      <div id="AES" class="contenedor">
+        <h1>Cifrado AES</h1>
+        <label for="msj">Mensaje:</label> <br />
+        <textarea id="msj" rows="4" cols="50" placeholder="Ingrese su texto"></textarea>
+        <br /><br />
+        <div class="botones">
+          <button onclick="procesar()">Procesar mensaje</button>
+        </div>
+        <div id="resultados">
+          <p id="mensajeProcesadoCA"></p>
+          <p id="mensajeProcesadoCR"></p>
+          <p id="mensajeProcesadoDR"></p>
+          <p id="mensajeProcesadoDA"></p>
+        </div>
+        <br /><br /><br />
+      <a href="indexant.html">Otra versión anterior que hice (confundí instrucciones)</a>
+      </div>
+
+    <script src="js/script.js"></script>
+  </main>
+  <footer>
+    <div class="FooterDiv">
+      <p>Karime Guadalupe Núñez Ochoa</p>
+      <p>204682</p>
+    </div>
+
+    <div class="FooterDiv">
+      <p>Seguridad de la información</p>
+    </div>
+
+    <div class="FooterDiv">
+      <p>15 de octubre del 2023</p>
+    </div>
+  </footer>
+</body>
+
+</html>
